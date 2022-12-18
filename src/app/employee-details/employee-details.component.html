@@ -1,0 +1,15 @@
+
+<table class="employeetable">
+<tr>
+    <th>S.No</th>
+    <th>EmployeeName</th>
+    <th>EmployeeAddress</th>
+    <th>EmployeeRole </th>
+</tr>
+<tr *ngFor="let e of EmpList;let i=index">
+    <td>{{ i+1 }}</td>
+    <td>{{ e.empname }}</td>
+    <td>{{ e.empaddress }}</td>
+    <td>{{ e.emprole }}</td>
+</tr>
+</table>

@@ -1,0 +1,36 @@
+.h2{
+    display: flex;
+    justify-content: center;
+    color:rebeccapurple;
+    
+}
+<<<<<<< HEAD
+
+=======
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.bar{
+    width: 300px;
+}
+>>>>>>> 314576b (Angular Uploaded-File)
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+<<<<<<< HEAD
+    color:black;
+    background-color: blue;
+    border-radius: 5px;
+=======
+    padding: 10px;
+    color:black;
+    background-color:bisque;
+    border-radius: 5px;
+     
+>>>>>>> 314576b (Angular Uploaded-File)
+}

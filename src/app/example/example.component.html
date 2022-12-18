@@ -1,0 +1,23 @@
+<p>example works  {{name}}!</p>
+<input type="text" value="Enter value"><br><br>
+<input [disabled]="isDisabled" id="{{Id}}" type="text" value="Enter value">
+
+
+<h2 class="TextColor">This is only class</h2>
+<h2 [class]="myText">This is using color class binding</h2>
+<h2 [class]="myText1">This is using style class binding</h2>
+<h2 [class]="myText2">This is using font family class binding</h2>
+<h2 [class.TextStyle]=""required> Using Required property: If true</h2>
+<h2 [ngClass]="group"> Using Required property: If multiple properties want to apply</h2>
+<h2 [style.color] = " 'blue' ">Style Binding</h2>
+<h2 [style.color]="myColor"> Style binding Using properties </h2>
+<h2 [style.color]="required ? 'green':'red'">Style binding using required</h2>
+<br>
+<button (click)="onClick()" type="button"> Click  </button>
+<h1>{{eventexample}}</h1>
+
+<input #msg type="text"><br><br>
+<button (click)="message(msg.value)" type="button">Login</button>
+
+
+

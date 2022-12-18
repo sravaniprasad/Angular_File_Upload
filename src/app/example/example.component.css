@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    font-family: play;
+    color: rebeccapurple;
+    font-size: 30px;
+}
+.TextStyle{
+     font-family:sans-serif;
+}
+.TextColor{
+    color: greenyellow;
+}
+.TextSize{
+      font-style: italic;
+}

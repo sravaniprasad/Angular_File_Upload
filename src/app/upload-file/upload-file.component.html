@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+=======
+<app-nav-bar></app-nav-bar>
+>>>>>>> 314576b (Angular Uploaded-File)
+<h2 class="h2">Uploading File</h2>
+
+<div class="container" *ngIf="flag">
+    
+<input (change)="chooseFile($event)" type="file" />
+<<<<<<< HEAD
+<button (click)="UploadFile()" class ="btn" mat-raised-button color="primary">Upload </button>
+ 
+</div>
+<div class="container" *ngIf="!flag">
+
+    <h1>Uploading..............</h1>
+</div>
+=======
+<button (click)="UploadFile()" class ="btn" mat-button color="primary">Upload </button>
+ 
+</div>
+<div class="container" *ngIf="!flag">
+    <mat-progress-bar class="bar" mode="indeterminate"> <h1>Uploading..............</h1></mat-progress-bar>
+
+    
+</div>
+<app-employee-details></app-employee-details>
+
+
+
+
+>>>>>>> 314576b (Angular Uploaded-File)
